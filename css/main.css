@@ -1,0 +1,244 @@
+* {
+    font-weight: 100;
+    color: #f7f7f7;
+    font-family: Whitney SSm A,Whitney SSm B,Verdana,sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #111719;
+}
+
+nav {
+    height: 72px;
+    width: 100%;
+    position: fixed;
+    background-color: #182022;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+a {
+    color: #f7f7f7;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.navContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.navContainer a {
+    color: rgb(161, 164, 166);
+    font-size: 12px;
+    padding-left: 2em;
+}
+
+#thisPage {
+    color: white;
+    font-weight: bold;
+}
+
+.navContainer a:hover {
+    color: white;
+}
+
+.navContainer input {
+    border-radius: 17px;
+    border: 1px solid rgba(161, 164, 166, 0.25);
+    box-shadow: transparent 0px 0px 0px 0px inset;
+    background: #111719 url(../imgs/icon.svg) right no-repeat;
+    padding: 5px;
+    margin-right: 2em;
+}
+
+#star {
+    height: 38px;
+    aspect-ratio: 1/1;
+}
+
+#header {
+    padding-top: 72px;
+}
+
+#header img {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+}
+
+#vidContainer {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.vidList {
+    width: 67%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.listTitle {
+    width: 100%;
+    margin-top: 2em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.listTitle h4 {
+    font-size: 13px;
+    line-height: 1.17em;
+    padding-top: 9px;
+    padding-left: 0.5em;
+    color: rgb(111, 188, 230);
+}
+
+.vids {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.vid {
+    width: 18%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.vid4 {
+    width: 22.5%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.vid3 {
+    width: 31.5%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.thumb {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.sqThumb {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 12px;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+    margin-top: 8px;
+    margin-right: 8px;
+    border-radius: 50%;
+}
+
+.vidInfo {
+    width: calc(100% - 40px);
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+.vidInfoF {
+    width: 100%;
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+.vidInfo p, .vidInfoF p {
+    margin: 0;
+}
+
+.vidInfo a, .vidInfoF a {
+    font-size: 12px;
+}
+
+.lvidInfo {
+    width: calc(100% - 110px);
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+.lvidInfo p {
+    margin: 0;
+}
+
+.vidTextGrey {
+    color: rgb(161, 164, 166);
+}
+
+.follow {
+    width: 70px;
+    height: 35px;
+    font-size: 12px;
+    margin-top: 5px;
+    border-radius: 128px;
+    background-color: rgb(111, 188, 230);
+}
+
+footer {
+    margin-top: 3em;
+    padding: 80px 60px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+footer a {
+    align-self: center;
+}
+
+#fStar {
+    width: 130px;
+}
+
+.links {
+    width: 80%;
+    padding: 1em 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.links2 {
+    align-self: center;
+    padding: 1em 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.links2 img {
+    width: 140px;
+    aspect-ratio: auto 140 / 60;
+    height: 60px;
+}
+
+.link {
+    color: rgb(161, 164, 166);
+}
+
+.link:hover {
+    color: white;
+}
